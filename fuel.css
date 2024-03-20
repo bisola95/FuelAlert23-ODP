@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.root{--pry_color: #04364A;
+    --sec_color: #176B87 ;
+    --assent_color:#64CCC5;
+    --off_color: DAFFFB;
+}
+
+body{
+    background-color: #176B87;
+}
+
+.navlogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+   
+}
+
+.btn{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    margin-bottom: 150px;
+    padding-right: 30px;
+          
+
+}
+
+
+.btnoone button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius:10px ;
+    border: none;
+    opacity: 0.5;
+
+}
+
+.btnoone{
+
+     padding-right: 15px;
+}
+ 
+
+.btntwo button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius:10px ;
+    border: none;
+    opacity: 0.5;
+
+}
+
+
+
+.piclogo img{
+    width: 200px;
+    height: 100;
+    margin-bottom: 100px;
+    margin-right: 15px;
+    
+}
+
+form{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: -1500px;
+    
+}
+
+.formtwo{
+    background-color: #04364A;
+    padding: 50px;
+}
+
+.heading{
+    margin-bottom: 20px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+h4{
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    color: #64CCC5;
+    
+}
+
+.heading h4{
+    padding-right: 20px;
+}
+
+.inputone{
+    margin-bottom: 20px;
+
+
+}
+
+input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 150px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    
+
+}
+
+span{
+    color: white;
+}
+
+.inputtwo{
+    margin-bottom: 20px;
+
+}
+
+.formdown{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.forgot{
+    padding-left: 80px;
+    color: #176B87;
+}
+
+.check{
+    color: #64CCC5;
+}
+
+.submit input{
+    border-radius: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-left: 80px;
+}
+
+.forgot a{
+    color: aliceblue;
+}
+
+span a{
+    color: #64CCC5;
+    padding-left: 5px;
+
+}
+
+
+
